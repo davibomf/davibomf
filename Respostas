@@ -1,0 +1,15 @@
+1- A principal diferença entra as camadas 2 e 3 é que a camada 2 funciona como um fiscal que verifica se o pacote de dados tem algum erro e se pode ser corrigido, enquando a camada 3 funciona como um administrador,
+podendo dar prioridade para algum pacote de dados. Nessas camadas são usados os protocólos IP e o ICMP.
+
+
+2- Uma das principais diferenças é a segurança dos dados, sendo que em sistemas como o Ubuntu há o acesso por permissão com o comando sudo e no Windows
+
+
+
+
+
+
+
+
+
+
