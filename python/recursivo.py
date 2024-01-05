@@ -1,17 +1,22 @@
-import math
+def listaPrimos(x, div = 1):
+    if div != x-1:
+        div  += 1
 
+    if div == x-1:
+        return x
+    elif x % div == 0:
+        return False 
+    else:
+        return listaPrimos(x, div)
+    
 def calculaPrimos(n):
-    if n > 1:
-        for i in range(2,n):
-            divisores = 0
-            for j in range(2,n):
-                if i%j == 0:
-                    divisores += 1
-            if divisores == 1:
-                primos.append(i)
-        return primos
-    return n
+    cont = 2
+    primos = []
+    while cont < n:
+        if listaPrimos(cont):
+            primos.append(cont)
+        cont += 1
+    return primos
 
-primos = []
 n = int(input())
 print(calculaPrimos(n))
