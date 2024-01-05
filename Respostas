@@ -2,10 +2,11 @@
 podendo dar prioridade para algum pacote de dados. Nessas camadas são usados os protocólos IP e o ICMP.
 
 
-2- Uma das principais diferenças é a segurança dos dados, sendo que em sistemas como o Ubuntu há o acesso por permissão com o comando sudo e no Windows
+2- Por ser um sistema operacional mais usado, Windows é um sistema com uma curva de aprendizado menor para os usuários quando comparado com o Ubuntu, além de ter uma compatibilidade maior com 
+vários softwares. Por outro lado, o Windows é um sistema menos seguro que o Ubuntu, sendo que o segundo tem um sistema de permissões de acesso mais rigoroso que o Windows.
 
 
-3- Um projeto OpenSource é um projeto com o código fonte disponível para os usuários, permitindo personaliza-lo. Além disso, projetos OpenSource 
+3- Um projeto OpenSource é um projeto com o código fonte disponível para os usuários, permitindo alterações no código.
 
 
 
